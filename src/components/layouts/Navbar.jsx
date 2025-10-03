@@ -38,7 +38,7 @@ const Navbar = () => {
                 </ul>
               </div>
             </div>
-            <div className="nav-right flex gap-x-5 ml-70">
+            <div className="nav-right flex gap-x-4 ml-70">
               <div className="flex gap-x-5 ">
                 <Image
                   imgSrc={searchIcon}
@@ -52,7 +52,7 @@ const Navbar = () => {
                   className="w-[16px] cursor-pointer"
                 />
               </div>
-              <div className="profile flex ">
+              <div className="profile flex relative group ">
 
               <Image
                 imgSrc={profileIcon}
@@ -60,6 +60,9 @@ const Navbar = () => {
                 className="w-[22px] cursor-pointer rounded-[2px]"
                 />
               <Image imgSrc={downIcon} imgAlt={downIcon} className="w-[7px] cursor-pointer ml-1.5 mt-2" />
+                <div className="dropDownList hidden group-hover:block ">
+                  <p className="bg-[#191919] px-1 py-2 text-[7px] w-max absolute   underline  top-7 right-3 ">Sign Out from Netflix</p>
+                </div>
                 </div>
             </div>
           </div>
