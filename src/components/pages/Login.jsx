@@ -1,7 +1,7 @@
 import Container from "../Container";
 import logo from "../../assets/logo.png";
 import Image from "../Image";
-import { Link } from "react-router-dom";
+
 const Login = () => {
   return (
     <>
