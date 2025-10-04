@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../layouts/Navbar";
 import herotitle from "../../assets/hero_title.png";
+import heroBanner from "/public/hero_banner.jpg";
 import playIcon from "../../assets/play_icon.png";
 import infoIcon from "../../assets/info_icon.png";
 import Container from "../Container";
@@ -17,8 +18,8 @@ const Home = () => {
           <div className=" hero ">
             <div className="relative">
               <img
-                src="/public/hero_banner.jpg"
-                alt="/public/hero_banner.jpg"
+                src={heroBanner}
+                alt={heroBanner}
                 className="object-fill bg-no-repeat object-center h-[650px] w-full"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-black via-black/45 to-transparent"></div>
