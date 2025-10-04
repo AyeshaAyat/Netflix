@@ -19,26 +19,26 @@ const Footer = () => {
             <Image className='w-[30px] cursor-pointer' imgSrc={twitIcon} imgAlt={twitIcon}/>
             <Image className='w-[30px] cursor-pointer' imgSrc={ytIcon} imgAlt={ytIcon}/>
         </div>
-        <div className="footerTexts flex gap-x-20 ml-20 text-[16px] text-gray-200">
+        <div className="footerTexts flex gap-x-20 ml-20  text-[16px] text-gray-200">
             <ul >
-                <li className='pb-2.5 '>Audio Description</li>
-                <li className='pb-2.5 '>Investor Relations</li>
-                <li className='pb-2.5 '>Legal Notices</li>
+                <li className='pb-2.5 cursor-pointer hover:text-[#6d6d6eb3]'>Audio Description</li>
+                <li className='pb-2.5 cursor-pointer hover:text-[#6d6d6eb3]'>Investor Relations</li>
+                <li className='pb-2.5 cursor-pointer hover:text-[#6d6d6eb3]'>Legal Notices</li>
             </ul>
             <ul>
-                <li className='pb-2.5 '>Help Centre</li>
-                <li className='pb-2.5 '>Jobs</li>
-                <li className='pb-2.5 '>Cookie Preferences</li>
+                <li className='pb-2.5 cursor-pointer hover:text-[#6d6d6eb3]'>Help Centre</li>
+                <li className='pb-2.5 cursor-pointer hover:text-[#6d6d6eb3]'>Jobs</li>
+                <li className='pb-2.5 cursor-pointer hover:text-[#6d6d6eb3]'>Cookie Preferences</li>
             </ul>
             <ul>
-                <li className='pb-2.5 '>Gift Cards</li>
-                <li className='pb-2.5 '>Terms of Use</li>
-                <li className='pb-2.5 '>Corporate Information</li>
+                <li className='pb-2.5 cursor-pointer hover:text-[#6d6d6eb3]'>Gift Cards</li>
+                <li className='pb-2.5 cursor-pointer hover:text-[#6d6d6eb3]'>Terms of Use</li>
+                <li className='pb-2.5 cursor-pointer hover:text-[#6d6d6eb3]'>Corporate Information</li>
             </ul>
             <ul>
-                <li className='pb-2.5 '>Media Centre</li>
-                <li className='pb-2.5 '>Privacy</li>
-                <li className='pb-2.5 '>Contact Us</li>
+                <li className='pb-2.5 cursor-pointer hover:text-[#6d6d6eb3]'>Media Centre</li>
+                <li className='pb-2.5 cursor-pointer hover:text-[#6d6d6eb3]'>Privacy</li>
+                <li className='pb-2.5 cursor-pointer hover:text-[#6d6d6eb3]'>Contact Us</li>
             </ul>
         </div>
         <p className='copyrightTxt text-[16px] text-gray-500 text-left mt-25 ml-13 '> © All rights reserved by Ayat-2025</p>
