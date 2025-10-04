@@ -5,6 +5,7 @@ import playIcon from "../../assets/play_icon.png";
 import infoIcon from "../../assets/info_icon.png";
 import Container from "../Container";
 import Image from "../Image";
+import TitleCards from "../layouts/TitleCards";
 const Home = () => {
   return (
     <>
@@ -20,7 +21,7 @@ const Home = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-r from-black via-black/45 to-transparent"></div>
               <div className="heroCaption absolute bottom-0 pl-13 ">
-                <Image imgSrc={herotitle} imgAlt={herotitle} className='w-[58%] mb-5.5 ' />
+                <Image imgSrc={herotitle} imgAlt={herotitle} className='w-[24%] mb-5.5 ' />
 
                 <p className="text-[10px] w-[420px] mb-3">
                   Discovering his ties to a secret ancient order, a young man
@@ -29,7 +30,7 @@ const Home = () => {
                  
                   city from an immortal enemy.
                 </p>
-                <div className="gap-x-3 flex mb-18 ">
+                <div className="gap-x-3 flex mb-5 ">
                   <button className="gap-x-1 bg-white hover:bg-[#ffffffbf] text-[13px] flex font-semibold cursor-pointer rounded-[2px]  text-black items-center py-1 px-3">
                     <>
                       <img src={playIcon} className="w-[15px] " />
@@ -42,17 +43,11 @@ const Home = () => {
                  More Info
                     </>
                   </button>
-                {/* <button className="bg-white ">
-                  <img src={playIcon} className="h-[50px] " />
-                  Play
-                </button>
-                <button className="bg-yellow-300">
-                  <img src={infoIcon} />
-                  More Info
-                </button> */}
                 </div>
+               <TitleCards/>
               </div>
             </div>
+               
           </div>
         </Container>
       </section>
