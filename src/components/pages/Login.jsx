@@ -1,6 +1,7 @@
 import Container from "../Container";
 import logo from "../../assets/logo.png";
 import Image from "../Image";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -33,12 +34,11 @@ const Login = () => {
                 type="text"
                 placeholder="Password"
               />
-              <button
-                onClick={() => (window.location.href = "/home")}
-                className="cursor-pointer hover:bg-[#e50914]/40 h-[35px] w-[250px] mt-6 text-[13px] py-1 rounded-[3px] font-semibold bg-[#e50914]"
-              >
+              <Link to="/home">
+              <button className="cursor-pointer hover:bg-[#e50914]/40 h-[35px] w-[250px] mt-6 text-[13px] py-1 rounded-[3px] font-semibold bg-[#e50914]">
                 Sign Up
               </button>
+              </Link>
             </div>
             <div className=" flex justify-between mt-2 ">
               <div className="flex ml-8 gap-x-1">
