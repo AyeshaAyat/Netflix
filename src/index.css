@@ -10,5 +10,6 @@ body{
   color: white;
   font-family: 'poppins';
   overflow-x: hidden;
-  overflow-y:hidden;
+  overflow-y: auto;
+
 }

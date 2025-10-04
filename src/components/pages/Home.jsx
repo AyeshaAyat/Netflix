@@ -17,7 +17,7 @@ const Home = () => {
               <img
                 src="/public/hero_banner.jpg"
                 alt="/public/hero_banner.jpg"
-                className="object-fill bg-no-repeat object-center h-[595px] w-full"
+                className="object-fill bg-no-repeat object-center h-[650px] w-full"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-black via-black/45 to-transparent"></div>
               <div className="heroCaption absolute bottom-0 pl-13 ">

@@ -7,7 +7,7 @@ const TitleCards = () => {
       <Container>
         <div className="titleCards mb-[6px] p-2 ">
           <h2 className="mb-4 text-[16px]">Popular on Netflix</h2>
-          <div className="cardlist flex gap-x-3 overflow-x-scroll  relative">
+          <div className="cardlist flex gap-x-3 overflow-x-auto    scrollbar-hide relative">
             {cards_data.map((card, index) => {
               return (
                 <div className="singleCard ">
