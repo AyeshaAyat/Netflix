@@ -10,9 +10,9 @@ import Container from "../Container";
 const Navbar = () => {
   return (
     <>
-      <section className="Navbar mt-7 ml-7  ">
+      <section id="Navbar" className="  ">
         <Container>
-          <div className="main flex mt-8 ml-7">
+          <div className="main flex mt-8 ml-7  fixed top-0  z-50">
             <div className="nav-left flex gap-x-15 ">
               <Image imgSrc={logo} imgAlt={logo} className="w-[90px] ml-2" />
               <div className="">
