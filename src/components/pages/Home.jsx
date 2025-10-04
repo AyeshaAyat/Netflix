@@ -34,7 +34,7 @@ const Home = () => {
                   living in modern Istanbul embarks on a quest to save the city
                   from an immortal enemy.
                 </p>
-                <div className="gap-x-3 flex mt-3.5 mb-7 ">
+                <div className="gap-x-3 flex mt-4.5 mb-7 ">
                   <button className="gap-x-1 bg-white hover:bg-[#ffffffbf] text-[13px] flex font-semibold cursor-pointer rounded-[2px]  text-black items-center py-1 px-3">
                     <>
                       <img src={playIcon} className="w-[15px] " />
