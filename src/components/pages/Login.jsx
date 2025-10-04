@@ -1,19 +1,12 @@
-import React from "react";
 import Container from "../Container";
 import logo from "../../assets/logo.png";
 import Image from "../Image";
+import { Link } from "react-router-dom";
 const Login = () => {
-// const signIn ()
-// const handleSwitchCardBtn =(()=>{
-
-//     alert="sabdhan"
-// })
-
-
   return (
     <>
       <Container>
-        <div className='relative main bg-[url("/src/assets/loginBanner.jpg")] bg-cover bg-no-repeat  h-[600px]'>
+        <div className='relative main bg-[url("/src/assets/loginBanner.jpg")] bg-cover bg-no-repeat  h-[590px]'>
           <div className="loginLogo">
             <Image
               imgSrc={logo}
@@ -40,7 +33,10 @@ const Login = () => {
                 type="text"
                 placeholder="Password"
               />
-              <button className="cursor-pointer hover:bg-[#e50914]/40 h-[35px] w-[250px] mt-6 text-[13px] py-1 rounded-[3px] font-semibold bg-[#e50914]">
+              <button
+                onClick={() => (window.location.href = "/home")}
+                className="cursor-pointer hover:bg-[#e50914]/40 h-[35px] w-[250px] mt-6 text-[13px] py-1 rounded-[3px] font-semibold bg-[#e50914]"
+              >
                 Sign Up
               </button>
             </div>
@@ -49,11 +45,13 @@ const Login = () => {
                 <input type="checkbox" className="size-3" />
                 <p className="text-[9.5px] text-[#b3b3b3]">Remember Me</p>
               </div>
-              <p className="text-[9.5px] cursor-default text-[#b3b3b3] mr-8 underline">Need Help?</p>
+              <p className="text-[9.5px] cursor-default text-[#b3b3b3] mr-8 underline">
+                Need Help?
+              </p>
             </div>
             <div className="switchCard flex mt-8 ml-9 gap-x-2">
-                 <p className="text-[9px] text-[#b3b3b3]">Already Have Account?</p>
-                 <button  className="cursor-pointer text-[8px]" >Sign in Now</button>
+              <p className="text-[9px] text-[#b3b3b3]">Already Have Account?</p>
+              <button className="cursor-pointer text-[8px]">Sign in Now</button>
             </div>
           </div>
         </div>
