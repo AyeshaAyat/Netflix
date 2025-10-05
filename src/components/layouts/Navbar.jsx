@@ -20,19 +20,19 @@ const Navbar = () => {
                   <li className="hover:text-gray-700 cursor-pointer text-[14px]">
                     Home
                   </li>
-                  <li className="hover:text-gray-700 cursor-pointer text-[14px]">
+                  <li className="hover:text-gray-700 whitespace-nowrap cursor-pointer text-[14px]">
                     TV Shows
                   </li>
                   <li className="hover:text-gray-700 cursor-pointer text-[14px]">
                     Movies
                   </li>
-                  <li className="hover:text-gray-700 cursor-pointer text-[14px]">
+                  <li className="hover:text-gray-700  whitespace-nowrap cursor-pointer text-[14px]">
                     New & popular
                   </li>
                   <li className="hover:text-gray-700 cursor-pointer text-[14px]">
                     My List
                   </li>
-                  <li className="hover:text-gray-700 cursor-pointer text-[14px]">
+                  <li className="hover:text-gray-700  whitespace-nowrap cursor-pointer text-[14px]">
                     Browse by Language
                   </li>
                 </ul>
